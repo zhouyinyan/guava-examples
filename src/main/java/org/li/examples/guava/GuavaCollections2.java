@@ -87,7 +87,7 @@ public class GuavaCollections2 {
     }
 
     /**
-     * Main function for demonstrating Guava's Collections2 class.
+     * Main basicutils for demonstrating Guava's Collections2 class.
      * 
      * @param arguments
      */

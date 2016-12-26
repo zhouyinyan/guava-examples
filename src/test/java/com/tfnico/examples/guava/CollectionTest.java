@@ -7,7 +7,7 @@ import java.util.Set;
 
 import org.junit.Test;
 
-import com.google.common.collect.Constraints;
+//import com.google.common.collect.Constraints;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
 
@@ -36,9 +36,9 @@ public class CollectionTest {
                                                          // HashSet<Customer>()
         customers.add(null); // this works. But should it?
 
-        Set<Customer> noMoreNulls = Constraints.constrainedSet(customers,
-                Constraints.notNull());
-        noMoreNulls.add(null); // boom!
+//        Set<Customer> noMoreNulls = Constraints.constrainedSet(customers,
+//                Constraints.notNull());
+//        noMoreNulls.add(null); // boom!
     }
 
     @Test
